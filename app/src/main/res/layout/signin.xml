@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/sample_background"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="54dp"
+                android:layout_gravity="start"
+                android:maxHeight="18dp"
+                android:padding="10dip"
+                android:src="@drawable/wc_logo"
+                android:textSize="18sp"
+                android:contentDescription="@string/w_con"/>
+
+            <TextView
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanami_regular"
+                android:gravity="end"
+                android:padding="18dip"
+                android:text="@string/w_con"
+                android:textColor="@color/dark_green"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/wclogo_removebg_preview"
+        android:contentDescription="@string/wc_logo"/>
+
+    <TextView
+
+        android:id="@+id/signintxt"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingBottom="5dp"
+        android:text="@string/sign_in"
+        android:fontFamily="@font/nanami_regular"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanami_regular"
+        android:padding="3dp"
+        android:text="@string/usn"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/usn"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanami_regular"
+        android:padding="3dp"
+        android:text="@string/pss"
+        android:textColor="@color/grey"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/pss"
+        android:textSize="17sp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/sign_in"
+        android:padding="16dp"
+        android:backgroundTint="@color/dark_green"
+        android:text="@string/sign_in"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/signupNow"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:fontFamily="@font/nanami_regular"
+        android:gravity="center"
+        android:text="@string/new_acc"
+        android:textSize="13sp"
+        />
+
+</LinearLayout>

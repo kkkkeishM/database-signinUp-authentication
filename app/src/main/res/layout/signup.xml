@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/up_background"
+    tools:context=".SignUp">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="54dp"
+                android:layout_gravity="start"
+                android:maxHeight="18dp"
+                android:padding="10dip"
+                android:src="@drawable/wc_logo"
+                android:textSize="18sp"
+                android:contentDescription="@string/w_con"/>
+
+            <TextView
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanami_regular"
+                android:gravity="end"
+                android:padding="18dip"
+                android:text="@string/w_con"
+                android:textColor="@color/dark_green"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:contentDescription="@string/wc_logo"
+        android:src="@drawable/su_icon" />
+
+    <TextView
+
+        android:id="@+id/signintxt"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:fontFamily="@font/nanami_regular"
+        android:paddingBottom="3dp"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanami_regular"
+        android:padding="2dp"
+        android:text="@string/e_mail"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/e_mail"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:inputType="text"/>
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanami_regular"
+        android:layout_marginTop="3dp"
+        android:padding="3dp"
+        android:text="@string/usn"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/usn"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanami_regular"
+        android:layout_marginTop="3dp"
+        android:padding="3dp"
+        android:text="@string/pss"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/pss"
+        android:textSize="17sp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/nanami_regular"
+        android:hint="@string/su"
+        android:padding="16dp"
+        android:backgroundTint="@color/dark_green"
+        android:text="@string/su"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/signinNow"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:fontFamily="@font/nanami_regular"
+        android:gravity="center"
+        android:text="@string/have_acc"
+        android:textSize="13sp"
+        />
+
+
+
+
+
+
+</LinearLayout>

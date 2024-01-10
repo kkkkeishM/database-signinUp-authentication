@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeConnect</string>
+    <string name="w_con">WeConnect.</string>
+    <string name="wc_logo">logo</string>
+    <string name="sign_up"> Create Account</string>
+    <string name="usn"> Username</string>
+    <string name="e_mail"> Email</string>
+    <string name="pss"> Password</string>
+    <string name="su"> Sign Up</string>
+    <string name="have_acc">Already have an account? <u color="@colors/green" name="s_in">Sign In</u></string>
+    
+    <string name="sign_in"> Sign In</string>
+    <string name="new_acc">Create new account.<u color="@colors/green" name="s_up">Sign Up</u></string>
+</resources>
